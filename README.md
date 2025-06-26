@@ -42,3 +42,4 @@ curl -sSL https://raw.githubusercontent.com/Moxin1044/install_registry/refs/head
 docker stop registry && docker rm registry
 sudo rm -rf /opt/registry
 ```
+![](img.png)
