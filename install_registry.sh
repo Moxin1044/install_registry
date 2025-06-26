@@ -61,6 +61,7 @@ sudo docker run -d \
   --name registry \
   -p 5000:5000 \
   -v /opt/registry/data:/var/lib/registry \
+  --restart unless-stopped \
   registry:2
 
 echo "仓库已部署，监听地址为 0.0.0.0:5000"
