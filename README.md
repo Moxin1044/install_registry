@@ -8,14 +8,26 @@
 # 🛠️ 使用方式
 ## 1. 直接运行远程脚本安装
 你可以直接使用以下命令来运行远程脚本进行安装：
+
+无认证版本：
 ```bash
 curl -O https://raw.githubusercontent.com/Moxin1044/install_registry/refs/heads/main/install_registry.sh
 chmod +x install_registry.sh
 sudo ./install_registry.sh
 ```
+认证版本：
+```bash
+curl -O https://raw.githubusercontent.com/Moxin1044/install_registry/refs/heads/main/install_registry_auth.sh
+chmod +x install_registry_auth.sh
+sudo ./install_registry_auth.sh
+```
 或者一行命令执行：
 ```bash
 curl -sSL https://raw.githubusercontent.com/Moxin1044/install_registry/refs/heads/main/install_registry.sh | sudo bash
+```
+或者一行命令执行（带认证）：
+```bash
+curl -sSL https://raw.githubusercontent.com/Moxin1044/install_registry/refs/heads/main/install_registry_auth.sh | sudo bash
 ```
 ## 2. 可选参数
 目前脚本默认使用以下设置：
